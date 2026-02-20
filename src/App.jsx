@@ -279,7 +279,7 @@ export default function Dashboard() {
 }
 
 const styles = {
-  root: { minHeight: "100vh", background: "#0f1117", color: "#e2e4e9", fontFamily: "'DM Sans','Segoe UI',sans-serif", padding: "28px 24px" },
+  root: { minHeight: "100vh", background: "#f5f7fa", color: "#1f2937", fontFamily: "'DM Sans','Segoe UI',sans-serif", padding: "28px 24px" },
   header: { display: "flex", justifyContent: "space-between", alignItems: "flex-end", marginBottom: 24, flexWrap: "wrap", gap: 12 },
   title: { fontSize: 24, fontWeight: 700, color: "#fff", margin: 0, letterSpacing: "-0.5px" },
   subtitle: { fontSize: 12, color: "#6b7280", margin: "4px 0 0" },
@@ -291,9 +291,9 @@ const styles = {
   tabBtn: { background: "transparent", border: "none", color: "#6b7280", fontSize: 12, fontWeight: 500, padding: "5px 12px", borderRadius: 5, cursor: "pointer" },
   tabActive: { background: "#6366f1", color: "#fff" },
   stageRow: { display: "flex", gap: 8, marginBottom: 16, flexWrap: "wrap" },
-  stageCard: { flex: "1 1 130px", background: "#161822", border: "1.5px solid transparent", borderRadius: 10, padding: "12px 14px", cursor: "pointer", transition: "all 0.2s", display: "flex", flexDirection: "column", gap: 3, textAlign: "left" },
+  stageCard: { flex: "1 1 130px", background: "#ffffff", border: "1.5px solid #e5e7eb", borderRadius: 10, padding: "12px 14px", cursor: "pointer", transition: "all 0.2s", display: "flex", flexDirection: "column", gap: 3, textAlign: "left" },
   stageDot: { width: 7, height: 7, borderRadius: "50%" },
-  stageLabel: { fontSize: 12, fontWeight: 600, color: "#e2e4e9" },
+  stageLabel: { fontSize: 12, fontWeight: 600, color: "#1f2937" },
   stageCount: { fontSize: 20, fontWeight: 700, marginTop: 1 },
   stageDesc: { fontSize: 10, color: "#5a6270" },
   funnelContainer: { display: "flex", alignItems: "center", gap: 12, marginBottom: 20 },
