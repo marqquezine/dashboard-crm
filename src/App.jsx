@@ -118,7 +118,7 @@ export default function Dashboard() {
                 style={{
                   ...styles.stageCard,
                   borderColor: filtroEstágio === s.id ? s.color : "transparent",
-                  background: filtroEstágio === s.id ? `${s.color}12` : "#161822",
+                  background: filtroEstágio === s.id ? `${s.color}12` : "#f5f7fa",
                 }}
               >
                 <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
